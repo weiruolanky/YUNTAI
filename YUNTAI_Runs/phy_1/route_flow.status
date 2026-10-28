@@ -1,0 +1,23 @@
+Location         : D:\AnLu-project\YUNTAI\YUNTAI_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : YUNTAI
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : final
+Setup            : WNS   181ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    20ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      place      |    1     |  2m20s(49%)  |   454(66%)    |       1415        |       1447        
+      route      |    1     |  2m12s(46%)  |   223(32%)    |       2363        |       2363        
+    fix_hold     |    1     |    8s(2%)    |     7(1%)     |       2363        |       2363        
+    import_db    |    1     |    1s(0%)    |     0(0%)     |        592        |        592        
+  import_device  |    1     |    1s(0%)    |     1(0%)     |        323        |        323        
+---------------------------------------------------------------------------------------------------
+      total      |    5     |    4m42s     |      685      |       2363        |       2363        
+---------------------------------------------------------------------------------------------------
